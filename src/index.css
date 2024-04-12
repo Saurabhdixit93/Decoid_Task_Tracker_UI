@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto !important;
+    background: #fcfcfc !important;
+
+}
+
+.active {
+    transform: translateY(-35px) !important;
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+}
+
+.arrow-btn {
+    background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+}
+
+.warn_bg {
+    background: linear-gradient(90.07deg, rgba(129, 157, 255, 0.28) 5.94%, rgba(16, 16, 16, 0) 76.45%);
+}
+
+.date_bg {
+    background: linear-gradient(270deg, #8DA4FF -0.62%, #D1DBFF 100.68%);
+}
+
+.time_bg_hr {
+    background: linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%);
+}
